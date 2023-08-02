@@ -1,4 +1,25 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo {
+  width: 80px;
+
+  @include pad {
+    margin: 0 0 16px 16px;
+  }
+}
+
+// .nav-menu {
+//   @media (max-width:768px) {
+//     flex-wrap: wrap;
+//   }
+// }
+.nav-menu-item {
+  @include pad {
+    width: 50%;
+    margin-right: 0px;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+}
+
+.nav-menu li a:hover {
+  opacity: 0.8;
 }
