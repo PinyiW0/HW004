@@ -7,6 +7,9 @@
   @include pad {
     margin: 0 0 16px 16px;
   }
+  @include mobile {
+    margin: 0 0 16px 16px;
+  }
 }
 
 .nav-menu-item {

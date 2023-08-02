@@ -1,4 +1,23 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.material-symbols-outlined{
+  padding-right: 10px !important;
+}
+
+.social-icon {
+  width: 24px;
+  object-fit: cover;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-icon {
+    width: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .social-icon{
+    width: 48px;
+  }
 }
