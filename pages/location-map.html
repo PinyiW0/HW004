@@ -2,40 +2,51 @@
 <%- include('./layout/header'); -%>
 <div class="container pt-12">
     <h1 class="border-start border-8 ps-3 border-secondary fs-7 fs-md-2 fw-bold mb-5">常見問題</h1>
-    <div class="select-menu mb-4 d-flex">
-        <p class="fs-md-7">選擇分店</p>
-        <select class="form-select form-select-lg mb-3 rounded-0 data-width="276px" " aria-label=".form-select-lg example">
-            <option selected>台北中山旗艦店</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
+    <div class="select-menu mb-4 d-flex ">
+        <p class="fs-md-7 me-2">選擇分店</p>
+        <select class="form-select form-select-lg mb-3 rounded-0" aria-label=".form-select-sm select example">
+            <option selected class="text-date">台北中山旗艦店</option>
+            <option value="1">台北中山旗艦店</option>
+            <option value="2">台北中山旗艦店</option>
         </select>
+    </div>
+    <div class="shop__select d-flex">
+        <label for="store" class="fs-md-7 me-2">選擇分店</label>
+        <div class="selectBlock">
+            <select id="store" name="store" class="rounded-0 TP-Z mb-4">
+                <option>台北中山旗艦店</option>
+                <option value="taipeiFlagship">台北中山旗艦店</option>
+            </select>
+        </div>
     </div>
     <div class="store">
         <img src="../assets/images/storepage-1.png" alt="台北中山旗艦店照片">
-        <h2 class="fs-7">台北中山旗艦店</h2>
-        <div class="location">
-            <ul class="list-unstyled">
-                <li>
-                    <span class="text-info fs-11 material-symbols-outlined">
+        <div class="location-content ">
+            <p class="fs-7 fw-normal p-2 ps-4 border">台北中山旗艦店</p>
+            <div class="location">
+                <ul class="list-unstyled border ps-4 pt-3 pb-3">
+                    <li>
+                        <span class="text-info fs-11 material-symbols-outlined ">
                         call
-                    </span>
-                    電話：(02)000-1234
-                </li>
-                <li>
-                    <span class="text-info fs-11 material-icons-outlined">
-                    schedule
-                    </span>
-                    營業時間：10:00-21:00
-                </li>
-                <li>
-                    <span class="text-info fs-11 material-symbols-outlined">
+                        </span>
+                        電話：(02)000-1234
+                    </li>
+                    <li>
+                        <span class="text-info fs-11 material-icons-outlined">
+                        schedule
+                        </span>
+                        營業時間：10:00-21:00
+                    </li>
+                    <li>
+                        <span class="text-info fs-11 material-symbols-outlined">
                         location_on
-                    </span>
-                    地址：台北市中山區南京東路25巷2-1號
-                </li>
-            </ul>
-            <div class="map">
-                <img src="../assets/images/2020-02-13 16.35.44@2x.png" alt="台北中山旗艦店在地圖上的位置">
+                        </span>
+                        地址：台北市中山區南京東路25巷2-1號
+                    </li>
+                </ul>
+                <div class="map">
+                    <img src="../assets/images/2020-02-13 16.35.44@2x.png" alt="台北中山旗艦店在地圖上的位置">
+                </div>
             </div>
         </div>
     </div>
