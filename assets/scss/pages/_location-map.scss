@@ -5,9 +5,37 @@
 }
 .map{
     object-fit: cover;
+    margin: 0 auto;
+    
+    min-width: 348px;
 }
 .custom-select-padding{
     padding: 6px 0;
     width: 276px;
     padding-left: 12px;
 }
+.store h2{
+    margin-bottom: 0;
+}
+// .store-pic{
+//     width: 526px;
+//     object-fit: cover;
+//     @include pad{
+//         width: 337px;
+//     }
+//     @include mobile{
+//         width: 348px;
+//     }
+// }
+// .store-content {
+//     width: 526px;
+//     object-fit: cover;
+
+//     @include pad {
+//         width: 337px;
+//     }
+
+//     @include mobile {
+//         width: 348px;
+//     }
+// }
