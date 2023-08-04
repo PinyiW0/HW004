@@ -627,7 +627,7 @@ $font-family-code:            var(--#{$prefix}font-monospace) !default;
 $font-size-root:              null !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-lg:                $font-size-base * 1.125 !default;//customer
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
@@ -1027,7 +1027,7 @@ $form-select-font-size:             $input-font-size !default;
 $form-select-indicator-padding:     $form-select-padding-x * 3 !default; // Extra padding for background-image
 $form-select-font-weight:           $input-font-weight !default;
 $form-select-line-height:           $input-line-height !default;
-$form-select-color:                 $input-color !default;
+$form-select-color:                 #495057;//$input-color !default;
 $form-select-bg:                    $input-bg !default;
 $form-select-disabled-color:        null !default;
 $form-select-disabled-bg:           $input-disabled-bg !default;
